@@ -76,6 +76,7 @@ PenguinController.prototype.onClickGetPenguin = function onClickGetPenguin(e) {
   this.penguinModel.getPenguin(index, this.showPenguin.bind(this));
 };
 
+
 PenguinController.prototype.showPenguin = function showPenguin(
   penguinModelData
 ) {
